@@ -12,7 +12,7 @@ import matplotlib.image as img
 import time
 from sklearn.metrics import mean_squared_error
 
-from network.mynn import initialize_weights, Norm2d, Norm1d
+from mynn import initialize_weights, Norm2d, Norm1d
 
 from ssl_dataset import random_crop, HRClimateDataset, ZSSRTypeDataset
 cnn_channels = 64
