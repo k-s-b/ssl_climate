@@ -14,7 +14,7 @@ from sklearn.metrics import mean_squared_error
 
 from mynn import initialize_weights, Norm2d, Norm1d
 
-from ssl_dataset import random_crop, HRClimateDataset, ZSSRTypeDataset
+from ssl_dataset import HRClimateDataset, ZSSRTypeDataset
 cnn_channels = 64
 num_cnn_layers = 8
 
